@@ -22,6 +22,7 @@
     "lint": "yarn runAll lint",
     "test": "yarn runAll test",
     "tscheck": "yarn runAll tscheck",
+    "build-and-check": "yarn build && yarn lint && yarn test && yarn tscheck",
     "deploy": "vercel pull --yes --token $VERCEL_TOKEN && vercel build --prod --token $VERCEL_TOKEN && vercel deploy --prebuilt --prod --token $VERCEL_TOKEN"
   }
 }

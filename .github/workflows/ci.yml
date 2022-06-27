@@ -27,17 +27,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Build
-        run: yarn build
-
-      - name: Lint
-        run: yarn lint
-
-      - name: Test
-        run: yarn test
-
-      - name: TS Check
-        run: yarn tscheck
+      - name: Build & check
+        run: yarn build-and-check
 
       - name: Deploy to Production
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
