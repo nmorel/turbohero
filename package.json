@@ -13,11 +13,15 @@
       "phases/*"
     ]
   },
+  "devDependencies": {
+    "vercel": "^25.1.0"
+  },
   "scripts": {
     "runAll": "yarn workspaces foreach --parallel --topological-dev --exclude @mrvl/mcu run",
     "build": "yarn runAll build",
     "lint": "yarn runAll lint",
     "test": "yarn runAll test",
-    "tscheck": "yarn runAll tscheck"
+    "tscheck": "yarn runAll tscheck",
+    "deploy": "vercel pull --yes --token $VERCEL_TOKEN && vercel build --prod --token $VERCEL_TOKEN && vercel deploy --prebuilt --prod --token $VERCEL_TOKEN"
   }
 }
