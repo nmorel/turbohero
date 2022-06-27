@@ -1,0 +1,16 @@
+{
+  "name": "@mrvl/config-babel",
+  "version": "1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12"
+  },
+  "devDependencies": {
+    "@mrvl/config-eslint": "*"
+  }
+}

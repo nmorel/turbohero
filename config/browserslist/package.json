@@ -1,0 +1,10 @@
+{
+  "name": "@mrvl/browserslist-config",
+  "version": "1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@mrvl/config-eslint": "*"
+  }
+}

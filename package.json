@@ -1,0 +1,23 @@
+{
+  "name": "@mrvl/mcu",
+  "version": "1.0.0",
+  "repository": "https://github.com/nmorel/turbohero.git",
+  "author": "Nicolas Morel <nmr.morel@gmail.com>",
+  "private": true,
+  "packageManager": "yarn@3.2.1",
+  "workspaces": {
+    "packages": [
+      "config/*",
+      "heroes/*",
+      "movies/*",
+      "phases/*"
+    ]
+  },
+  "scripts": {
+    "runAll": "yarn workspaces foreach --parallel --topological-dev --exclude @mrvl/mcu run",
+    "build": "yarn runAll build",
+    "lint": "yarn runAll lint",
+    "test": "yarn runAll test",
+    "tscheck": "yarn runAll tscheck"
+  }
+}
