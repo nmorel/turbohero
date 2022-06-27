@@ -39,6 +39,7 @@ module.exports = {
   devtool: isProd ? false : 'eval',
   devServer: {
     host: '0.0.0.0',
+    historyApiFallback: true,
     liveReload: !isFastRefreshEnabled,
     hot: isFastRefreshEnabled,
     port: 3000,

@@ -1,7 +1,19 @@
 {
   "name": "@mrvl/phase-one",
   "version": "1.0.0",
+  "dependencies": {
+    "@mrvl/m-captain-america-the-first-avenger": "*",
+    "@mrvl/m-iron-man": "*",
+    "@mrvl/m-iron-man-2": "*",
+    "@mrvl/m-the-avengers": "*",
+    "@mrvl/m-the-incredible-hulk": "*",
+    "@mrvl/m-thor": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
     "@mrvl/config-babel": "*",
     "@mrvl/config-eslint": "*",
     "@mrvl/config-test": "*",
@@ -25,11 +37,7 @@
     "lint": "eslint .",
     "start": "FAST_REFRESH=true webpack serve",
     "test": "jest --coverage",
+    "test:watch": "jest --watch",
     "tscheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router": "^6.3.0"
   }
 }

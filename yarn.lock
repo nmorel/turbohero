@@ -1754,6 +1754,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mrvl/black-widow@*, @mrvl/black-widow@workspace:heroes/black-widow":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/black-widow@workspace:heroes/black-widow"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/captain-america@*, @mrvl/captain-america@workspace:heroes/captain-america":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/captain-america@workspace:heroes/captain-america"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
 "@mrvl/config-babel@*, @mrvl/config-babel@workspace:config/babel":
   version: 0.0.0-use.local
   resolution: "@mrvl/config-babel@workspace:config/babel"
@@ -1780,6 +1818,7 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.30.1
     eslint-plugin-react-hooks: ^4.6.0
+    prettier: ^2.7.1
   languageName: unknown
   linkType: soft
 
@@ -1796,11 +1835,14 @@ __metadata:
   resolution: "@mrvl/config-test@workspace:config/jest"
   dependencies:
     "@mrvl/config-eslint": "*"
+    "@testing-library/dom": ^8.14.0
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^13.3.0
     "@testing-library/user-event": ^14.2.1
     jest: ^28.1.1
     jest-environment-jsdom: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
   languageName: unknown
   linkType: soft
 
@@ -1817,9 +1859,227 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@mrvl/hawkeye@*, @mrvl/hawkeye@workspace:heroes/hawkeye":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/hawkeye@workspace:heroes/hawkeye"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/hulk@*, @mrvl/hulk@workspace:heroes/hulk":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/hulk@workspace:heroes/hulk"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/iron-man@*, @mrvl/iron-man@workspace:heroes/iron-man":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/iron-man@workspace:heroes/iron-man"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/loki@*, @mrvl/loki@workspace:heroes/loki":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/loki@workspace:heroes/loki"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/m-captain-america-the-first-avenger@*, @mrvl/m-captain-america-the-first-avenger@workspace:movies/captain-america-the-first-avenger":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/m-captain-america-the-first-avenger@workspace:movies/captain-america-the-first-avenger"
+  dependencies:
+    "@mrvl/captain-america": "*"
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@mrvl/nick-fury": "*"
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/m-iron-man-2@*, @mrvl/m-iron-man-2@workspace:movies/iron-man-2":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/m-iron-man-2@workspace:movies/iron-man-2"
+  dependencies:
+    "@mrvl/black-widow": "*"
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@mrvl/iron-man": "*"
+    "@mrvl/nick-fury": "*"
+    "@mrvl/phil-coulson": "*"
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/m-iron-man@*, @mrvl/m-iron-man@workspace:movies/iron-man":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/m-iron-man@workspace:movies/iron-man"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@mrvl/iron-man": "*"
+    "@mrvl/phil-coulson": "*"
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/m-the-avengers@*, @mrvl/m-the-avengers@workspace:movies/the-avengers":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/m-the-avengers@workspace:movies/the-avengers"
+  dependencies:
+    "@mrvl/black-widow": "*"
+    "@mrvl/captain-america": "*"
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@mrvl/hawkeye": "*"
+    "@mrvl/hulk": "*"
+    "@mrvl/iron-man": "*"
+    "@mrvl/loki": "*"
+    "@mrvl/nick-fury": "*"
+    "@mrvl/phil-coulson": "*"
+    "@mrvl/thor": "*"
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/m-the-incredible-hulk@*, @mrvl/m-the-incredible-hulk@workspace:movies/the-incredible-hulk":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/m-the-incredible-hulk@workspace:movies/the-incredible-hulk"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@mrvl/hulk": "*"
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/m-thor@*, @mrvl/m-thor@workspace:movies/thor":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/m-thor@workspace:movies/thor"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@mrvl/loki": "*"
+    "@mrvl/phil-coulson": "*"
+    "@mrvl/thor": "*"
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
 "@mrvl/mcu@workspace:.":
   version: 0.0.0-use.local
   resolution: "@mrvl/mcu@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/nick-fury@*, @mrvl/nick-fury@workspace:heroes/nick-fury":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/nick-fury@workspace:heroes/nick-fury"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
   languageName: unknown
   linkType: soft
 
@@ -1827,10 +2087,17 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@mrvl/phase-one@workspace:phases/one"
   dependencies:
+    "@babel/core": ^7.18.5
     "@mrvl/config-babel": "*"
     "@mrvl/config-eslint": "*"
     "@mrvl/config-test": "*"
     "@mrvl/config-ts": "*"
+    "@mrvl/m-captain-america-the-first-avenger": "*"
+    "@mrvl/m-iron-man": "*"
+    "@mrvl/m-iron-man-2": "*"
+    "@mrvl/m-the-avengers": "*"
+    "@mrvl/m-the-incredible-hulk": "*"
+    "@mrvl/m-thor": "*"
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.7
     "@types/react": ^18.0.14
     "@types/react-dom": ^18.0.5
@@ -1841,7 +2108,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-refresh: ^0.14.0
-    react-router: ^6.3.0
+    react-router-dom: ^6.3.0
     terser-webpack-plugin: ^5.3.3
     typescript: ^4.7.4
     webpack: ^5.73.0
@@ -1850,16 +2117,40 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mrvl/slugify@workspace:heroes/iron-man":
+"@mrvl/phil-coulson@*, @mrvl/phil-coulson@workspace:heroes/phil-coulson":
   version: 0.0.0-use.local
-  resolution: "@mrvl/slugify@workspace:heroes/iron-man"
+  resolution: "@mrvl/phil-coulson@workspace:heroes/phil-coulson"
   dependencies:
     "@mrvl/config-babel": "*"
     "@mrvl/config-eslint": "*"
     "@mrvl/config-test": "*"
     "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
     eslint: ^8.18.0
     jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
+
+"@mrvl/thor@*, @mrvl/thor@workspace:heroes/thor":
+  version: 0.0.0-use.local
+  resolution: "@mrvl/thor@workspace:heroes/thor"
+  dependencies:
+    "@mrvl/config-babel": "*"
+    "@mrvl/config-eslint": "*"
+    "@mrvl/config-test": "*"
+    "@mrvl/config-ts": "*"
+    "@testing-library/react": ^13.3.0
+    "@types/react": ^18.0.14
+    eslint: ^8.18.0
+    jest: ^28.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router-dom: ^6.3.0
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
@@ -1975,7 +2266,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.5.0":
+"@testing-library/dom@npm:^8.14.0, @testing-library/dom@npm:^8.5.0":
   version: 8.14.0
   resolution: "@testing-library/dom@npm:8.14.0"
   dependencies:
@@ -7647,7 +7938,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:^6.3.0":
+"react-router-dom@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "react-router-dom@npm:6.3.0"
+  dependencies:
+    history: ^5.2.0
+    react-router: 6.3.0
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 77603a654f8a8dc7f65535a2e5917a65f8d9ffcb06546d28dd297e52adcc4b8a84377e0115f48dca330b080af2da3e78f29d590c89307094d36927d2b1751ec3
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.3.0":
   version: 6.3.0
   resolution: "react-router@npm:6.3.0"
   dependencies:
